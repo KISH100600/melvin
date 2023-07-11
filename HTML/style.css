@@ -1,0 +1,17 @@
+  h1,
+  p,
+  kish {
+      background: red;
+      padding: 20px;
+  }
+
+  .title {
+      background: yellow;
+      color: black;
+      text-align: center;
+  }
+
+  #test,
+  #kk {
+      background: pink;
+  }

@@ -1,0 +1,15 @@
+"use strict";
+const x = 100;
+console.log(x);
+class Person {
+    constructor(name) {
+        this.name = name;
+        console.log(this.name);
+    }
+    getName() {
+        return this.name;
+    }
+}
+const classData = new Person("kish");
+console.log(classData.name);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMDMuanMiLCJzb3VyY2VSb290Ijoic3JjLyIsInNvdXJjZXMiOlsiMDMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLE1BQU0sQ0FBQyxHQUFXLEdBQUcsQ0FBQztBQUN0QixPQUFPLENBQUMsR0FBRyxDQUFtQixDQUFFLENBQUMsQ0FBQztBQUVsQyxNQUFNLE1BQU07SUFDVixZQUEwQixJQUFZO1FBQVosU0FBSSxHQUFKLElBQUksQ0FBUTtRQUNwQyxPQUFPLENBQUMsR0FBRyxDQUFDLElBQUksQ0FBQyxJQUFJLENBQUMsQ0FBQztJQUN6QixDQUFDO0lBQ0QsT0FBTztRQUNMLE9BQU8sSUFBSSxDQUFDLElBQUksQ0FBQztJQUNuQixDQUFDO0NBQ0Y7QUFFRCxNQUFNLFNBQVMsR0FBRyxJQUFJLE1BQU0sQ0FBQyxNQUFNLENBQUMsQ0FBQztBQUVyQyxPQUFPLENBQUMsR0FBRyxDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsQ0FBQyJ9

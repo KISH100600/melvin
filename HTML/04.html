@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1,
+    b {
+        background-color: aqua;
+    }
+</style>
+
+<body>
+    <h1>
+        hi <b>jsjs</b> there
+    </h1>
+    <b>kish</b>
+    <ul>
+        <li>First </li>
+        <li>First </li>
+        <li>First </li>
+        <li>First </li>
+        <li>First </li>
+        <li>First </li>
+    </ul>
+    <OL id="ol" style="display: none;">
+        <li>First </li>
+        <li>First </li>
+        <li>First </li>
+        <li>First </li>
+        <li>First </li>
+        <li>First </li>
+    </ol>
+    <p id="head">hi kish</p>
+    <button onclick="showlist()">click to vie the list</button>
+</body>
+<script>
+    document.write("<h1>this is writen automatically</h1>")
+
+    function showlist() {
+        console.log("hi")
+        console.warn("hi")
+        console.error("hi")
+        // document.getElementById("ol").style.display = "block";
+        // document.getElementById("ol").style.background = "red";
+        document.getElementById("head").innerHTML = "hi <b>there </b>"
+    }
+</script>
+<script src="./JS/01.js">
+</script>
+
+</html>

@@ -4,7 +4,7 @@
 <h1>Hi there welcome</h1>
 <div style="display: flex; width: 50%; justify-content: space-around;">
     <a routerLink="first">First</a>
-    <a [routerLink]="['second/', 2]">Second</a>
+    <a routerLink="second/{{title}}">Second</a>
     <!-- <a href="third">Third</a> -->
 </div>
 <router-outlet></router-outlet>

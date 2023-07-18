@@ -7,6 +7,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./sec.component.css'],
 })
 export class SecComponent {
+  names = 'kish';
   public constructor(public router: Router, public route: ActivatedRoute) {
     console.log(route.snapshot.paramMap.get('ids'));
   }

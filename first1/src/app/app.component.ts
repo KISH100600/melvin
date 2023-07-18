@@ -7,6 +7,6 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'first';
+  title = 2;
 }
 // ng generate component cname

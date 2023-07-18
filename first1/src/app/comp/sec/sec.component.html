@@ -1,3 +1,8 @@
 <p>sec works!</p>
 
-<button (click)="gotoFirst()">Go to first</button>
+<button *ngIf="names === 'kish';else elseBlock " (click)="gotoFirst()">Go to first</button>
+
+
+<ng-template #elseBlock>
+    <h1>This i s a template</h1>
+</ng-template>

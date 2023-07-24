@@ -1,8 +1,14 @@
 <p>sec works!</p>
 
-<button *ngIf="names === 'kish';else elseBlock " (click)="gotoFirst()">Go to first</button>
+<button appKish *ngIf="names;else elseBlock " (click)="gotoFirst()">Go to first</button>
+<h1>{{names | date:"medium"}}</h1>
+<p>The hero's birthday is {{ names | date:"MMM==dd==yy" | uppercase }} </p>
 
 
 <ng-template #elseBlock>
     <h1>This i s a template</h1>
 </ng-template>
+
+<div *ngFor="let item of dataArray">
+    <h1>{{item}}</h1>
+</div>

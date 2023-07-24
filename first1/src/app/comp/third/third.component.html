@@ -1,1 +1,21 @@
-<p>third works!</p>
+<!-- <p>third works!</p>
+
+<input [formControl]="firstInput" />
+
+<p>{{firstInput.value}}</p>
+
+
+<button (click)="updateNAme()">Update name</button>
+
+<button (click)="reset()">reset name</button> -->
+
+<form [formGroup]="profileForm">
+
+    <label for="first-name">First Name: </label>
+    <input id="first-name" type="text" formControlName="firstName">
+
+    <label for="last-name">Last Name: </label>
+    <input id="last-name" type="text" formControlName="lastName">
+
+</form>
+<p>{{profileForm.value.firstName}}</p>

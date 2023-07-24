@@ -4,3 +4,15 @@
 <router-outlet></router-outlet>
 <h1>{{data}}</h1>
 <app-four [data]="this.data" (voted)="onVoted($event)"></app-four>
+
+
+<br>
+<h1>==============================================</h1>
+<div *ngFor="let kish of heros">
+    <div style="background-color: red;margin: 10px;">
+        <h2>{{kish.name}}</h2>
+        <h2>{{kish.age}}</h2>
+        <h2>{{kish.address}}</h2>
+        <a href="#">{{kish.age}}</a>
+    </div>
+</div>

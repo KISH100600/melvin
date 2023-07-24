@@ -8,22 +8,20 @@ const routes: Routes = [
   {
     path: 'first',
     component: FirstComponent,
-    children: [
-      {
-        path: 'third',
-        component: ThirdComponent,
-      },
-    ],
+    children: [],
   },
 
   {
     path: 'second/:ids',
     component: SecComponent,
   },
-
+  {
+    path: 'third',
+    component: ThirdComponent,
+  },
   {
     path: '',
-    redirectTo: '/first',
+    redirectTo: '/third',
     pathMatch: 'full',
   },
   {

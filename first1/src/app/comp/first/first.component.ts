@@ -20,7 +20,12 @@ export class FirstComponent {
   }
 
   ngOnInit() {
-    this.heros = this.FirstServe.getAllData();
+    const get = this.FirstServe.getAllData();
+    get.subscribe((data) => {
+      console.log(data);
+
+      this.heros = data;
+    });
     console.log(this.heros);
   }
 }

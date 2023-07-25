@@ -8,6 +8,7 @@ import { SecComponent } from './comp/sec/sec.component';
 import { ThirdComponent } from './comp/third/third.component';
 import { FourComponent } from './comp/four/four.component';
 import { KishDirective } from './kish.directive';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,12 @@ import { KishDirective } from './kish.directive';
     FourComponent,
     KishDirective,
   ],
-  imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

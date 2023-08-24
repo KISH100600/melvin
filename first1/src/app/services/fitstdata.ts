@@ -50,4 +50,9 @@ const heros: hero[] = [
     email: 'email@email.com',
   },
 ];
-export { heros, hero };
+
+interface postData {
+  userName: String;
+  password: String;
+}
+export { heros, hero, postData };

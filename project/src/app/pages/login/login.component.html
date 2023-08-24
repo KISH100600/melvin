@@ -1,0 +1,8 @@
+<app-navbar></app-navbar>
+
+<div class="container d-flex direction-column">
+  <input class="col" [formControl]="userName" placeholder="userName" />
+  <input class="col" [formControl]="password" placeholder="password" />
+
+  <button (click)="login()">Submit</button>
+</div>
